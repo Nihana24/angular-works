@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="mb-4">
+
+                <input type="text" #num1 class="form-control" placeholder="enter num1">
+
+            </div>
+
+            <div class="mb-4">
+
+                <input type="text" #num2 class="form-control" placeholder="enter num2">
+
+            </div>
+            <div class="mb-4">
+
+                <button class="btn btn-info" (click)="addNumber(num1,num2)">ADD</button>
+            </div>
+        </div>
+        <div class="col-4"></div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">answer={{result}}</div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</div>
